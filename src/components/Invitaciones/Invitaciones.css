@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.traka-container {
+  height: 96vh;
+  overflow-y: auto;
+}
+.traka-container::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar width */
+}
+
+.traka-container::-webkit-scrollbar-thumb {
+  display: none; /* Hide scrollbar thumb */
+}
+.frase{
+  background-color: white;
+  width: 90%;
+  margin-top:1rem ;
+  margin-bottom:10rem ;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+small{
+  font-size: 15px;
+  font-family: 'Tajawal', sans-serif;
+}
+big{
+  font-size: 30px;
+
+  font-family: 'Tajawal', sans-serif;
+}
+h1, h3, h4 {
+  font-family: 'Edu TAS Beginner', cursive;
+}
+h1{
+  font-size: 100px;
+  color: white;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+h3{
+  font-size: 50px;
+}
+@media (max-width: 768px) {
+  .fondo-1 {
+    background-image: url('../../assets/imgs2/fondos/f1ns.svg');
+  }
+  
+  .fondo-2 {
+    background-image: url('../../assets/imgs2/fondos/f2ns.svg');
+  }
+  
+  .fondo-3 {
+    background-image: url('../../assets/imgs2/fondos/f3ns.svg');
+  }
+  
+  .fondo-4 {
+    background-image: url('../../assets/imgs2/fondos/f4ns.svg');
+  }
+  
+  .fondo-5 {
+    background-image: url('../../assets/imgs2/fondos/f5ns.svg');
+  }
+  
+  .fondo-6 {
+    background-image: url('../../assets/imgs2/fondos/f6ns.svg');
+  }
+
+}
+.normalBox{
+    background-color: #f2d0bd;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.37);  
+    margin: 1rem;
+    padding: 2rem;
+    width: 30%;
+}
+.invi{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem ;
+    height: 82%;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#carrito{
+  margin: 15rem;
+}
+.a3{
+  display: flex;
+}
+@media (max-width: 768px){
+  .smallS{
+    font-size: 10px;
+  }
+  .bigI{
+    font-size: 25px;
+  }
+  #logoI{
+    height: 490px;
+  }
+  .traka-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .kg{
+    font-size: 70px !important;
+  }
+  .kg1{
+    font-size: 18px !important;
+  }
+  .a3{
+    display: block;
+    margin-bottom: -95px;
+  }
+  #a4{
+    height: 15%;
+    padding: 1rem;
+    display: block !important;
+  }
+  #a5{
+    display: flex;
+  }
+  #a6{
+    margin-top: -10px;
+    margin-bottom: -25px;
+  }
+  #a7{
+    margin: 40%;
+  }
+  #a8{
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+  }
+  .normalBox{
+    display: flex;
+    align-items: center;
+    height: 5%;
+    font-size: 11px;
+    width: 70%;
+  }
+  .invi{
+    height: 75%;
+  }
+}
+

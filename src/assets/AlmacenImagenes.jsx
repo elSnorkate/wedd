@@ -16,6 +16,19 @@ import Celular from '../assets/imgs/iconos/cel.svg'
 import Flecha from '../assets/imgs/iconos/arrow.svg'
 import FVerde from '../assets/imgs/iconos/flor_verde.svg'
 import FRoja from '../assets/imgs/iconos/flor_roja.svg'
+import Carro   from '../assets/imgs2/iconos/carro.svg'
+import Madre   from '../assets/imgs2/iconos/madre.svg'
+import Padres  from '../assets/imgs2/iconos/padres.svg'
+import Casados from '../assets/imgs2/iconos/casados.svg'
+import Entrada from '../assets/imgs2/iconos/entrada.svg'
+import Sonrisa from '../assets/imgs2/iconos/sonrisa.svg'
+import SonrisaN from '../assets/imgs2/iconos/sonrisan.svg'
+
+
+
+
+
+
 
 
 const AlmacenImagenes = {
@@ -37,5 +50,12 @@ const AlmacenImagenes = {
     Flecha,
     FVerde,
     FRoja,
+    Carro,
+    Madre,
+    Padres,
+    Casados,
+    Entrada,
+    Sonrisa,
+    SonrisaN,
 }
 export default AlmacenImagenes;

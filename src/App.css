@@ -18,6 +18,12 @@ nav a{
   text-decoration: none;
   color: white;
 }
+.navH{
+  font-size: 1.5rem;
+}
+.tH2{
+  font-size: 20px;
+}
 #bodybox{
   position: absolute;
   top: 50%;
