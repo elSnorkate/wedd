@@ -76,6 +76,17 @@ p{
   box-shadow: 1px 1px 100px 10px  rgb(209, 217, 196);
   transition: background 1s;
 }
+#inputxd {
+  background-color: #f2d0bd;
+  border: 5px solid #f6dbcb;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+#inputxd:focus {
+  outline: none; 
+  border-color: #f6dbcb; 
+}
 
 #Informacion:hover {
   background: linear-gradient(190deg, white, #f2d0bd);
