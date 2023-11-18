@@ -16,14 +16,18 @@
 }
 .frase{
   background-color: white;
-  width: 90%;
+  width: 85%;
   margin-top:1rem ;
-  margin-bottom:10rem ;
+  margin-bottom:2rem ;
   border-radius: 1rem;
   padding: 1rem;
   font-size: 15px;
   text-align: center;
   font-family: 'Merriweather', serif;
+}
+#fraseb{
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(242,208,189,1) 100%);
 }
 small{
   font-size: 15px;
@@ -75,7 +79,8 @@ h3{
 
 }
 .normalBox{
-    background-color: #f2d0bd;
+    background: rgb(242,208,189);
+    background: radial-gradient(circle, rgba(242,208,189,1) 0%, rgba(255,255,255,1) 100%);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.37);  
@@ -100,12 +105,20 @@ h3{
     align-items: center;
 }
 #carrito{
-  margin: 15rem;
+  margin: 3rem;
 }
 .a3{
   display: flex;
 }
 @media (max-width: 768px){
+  .t1{
+    font-size: 9px;
+    margin: auto;
+  }
+  .t2{
+    font-size: 10px;
+    margin-left: auto;
+  }
   .smallS{
     font-size: 10px;
   }
@@ -113,7 +126,7 @@ h3{
     font-size: 25px;
   }
   #logoI{
-    height: 490px;
+    height: 500px;
   }
   .traka-container {
     display: flex;
@@ -121,7 +134,7 @@ h3{
     align-items: center;
   }
   .kg{
-    font-size: 70px !important;
+    font-size: 65px !important;
   }
   .kg1{
     font-size: 18px !important;
@@ -132,8 +145,10 @@ h3{
   }
   #a4{
     height: 15%;
-    padding: 1rem;
-    display: block !important;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
   }
   #a5{
     display: flex;
@@ -152,12 +167,15 @@ h3{
   .normalBox{
     display: flex;
     align-items: center;
-    height: 5%;
+    height:5%;
     font-size: 11px;
     width: 70%;
   }
   .invi{
-    height: 75%;
+    height: 100%;
+  }
+  .traka-container{
+    height: 79vh;
   }
 }
 

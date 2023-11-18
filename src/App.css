@@ -19,7 +19,7 @@ nav a{
   color: white;
 }
 .navH{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .tH2{
   font-size: 20px;
@@ -265,6 +265,9 @@ p{
 #logoDetalle{
   width: 640px;
 }
+#counter{
+  font-size: 4rem;
+}
 
 .linea1{
   position: relative;
@@ -315,6 +318,9 @@ p{
     margin: 0;
     font-size: 1.9rem;
   }
+  #counter{
+    font-size: 2rem;
+  }
   #logoDetalle{
     right: 1.5em;
     width: 300px;
@@ -353,5 +359,7 @@ p{
     background: white;
     box-shadow: 1px 1px 100px 10px  rgb(209, 217, 196);
   }
-  
+  .navH{
+  font-size: 1rem;
+  }
 }
