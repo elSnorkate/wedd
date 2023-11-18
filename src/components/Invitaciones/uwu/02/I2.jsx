@@ -8,9 +8,9 @@ export const I2 = () => {
   return (
     <>
     <div className='traka-container' id={uniqueID}>
-    <EFC1/>
     <EFC2/>
     <I21 />
+    <EFC1/>
     </div>
     </>
     

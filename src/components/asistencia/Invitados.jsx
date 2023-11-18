@@ -16,6 +16,11 @@ import { I15 } from '../Invitaciones/uwu/15/I15';
 import { I16 } from '../Invitaciones/uwu/16/I16';
 import { I17 } from '../Invitaciones/uwu/17/I17';
 import { I18 } from '../Invitaciones/uwu/18/I18';
+import { I19 } from '../Invitaciones/uwu/19/I19';
+import { I20 } from '../Invitaciones/uwu/20/I20';
+import { I21 } from '../Invitaciones/uwu/21/I21';
+import { I22 } from '../Invitaciones/uwu/22/I22';
+import { I23 } from '../Invitaciones/uwu/23/I23';
 
 const componentsMap = {
   '02122302': I2,
@@ -34,7 +39,12 @@ const componentsMap = {
   '02122315': I15,
   '02122316': I16,
   '02122317': I17,
-  '02122318': I18, // Fixed typo in the key
+  '02122318': I18, 
+  '02122319': I19,
+  '02122320': I20,
+  '02122321': I21,
+  '02122322': I22,
+  '02122323': I23, 
 };
 
 export const Invitados = () => {

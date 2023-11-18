@@ -3,6 +3,11 @@ import Imagenes from '../../assets/AlmacenImagenes'
 
 export const Preguntas = () => {
   const qaPairs = [
+    
+    {
+      question: "¿Cuales son los numeros de cuenta para los regalos?",
+      answer: "Respuesta: Los encuentras en la 4ta caja arriba, todos ellos a nombre de Juana Mercedes"
+    },
     {
       question: "¿Cuál es la fecha y la hora de la boda?",
       answer: "Respuesta: La boda se llevará a cabo el 02/12/2023 a las 11 am."
@@ -46,6 +51,10 @@ export const Preguntas = () => {
     {
       question: "¿Puedo llevar a mis hijos a la boda?",
       answer: "Respuesta: Queremos mucho a los niños pero recuerda que el local tiene una piscina, mucho ojo."
+    },
+    {
+      question: "¿Puedo llevar regalos materiales?",
+      answer: "Respuesta: Realmente nos gustaria que respetes nuestra eleccion de lluvia de sobres como regalos"
     }
   ];
 

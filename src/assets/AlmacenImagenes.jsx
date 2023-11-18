@@ -23,7 +23,7 @@ import Casados from '../assets/imgs2/iconos/casados.svg'
 import Entrada from '../assets/imgs2/iconos/entrada.svg'
 import Sonrisa from '../assets/imgs2/iconos/sonrisa.svg'
 import SonrisaN from '../assets/imgs2/iconos/sonrisan.svg'
-
+import Dove from '../assets/imgs2/iconos/dove.svg'
 
 
 
@@ -57,5 +57,6 @@ const AlmacenImagenes = {
     Entrada,
     Sonrisa,
     SonrisaN,
+    Dove,
 }
 export default AlmacenImagenes;

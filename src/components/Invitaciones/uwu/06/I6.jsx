@@ -7,9 +7,9 @@ export const I6 = () => {
   return (
     <>
     <div className='traka-container'>
-    <EFC1/>
     <EFC2/>
     <I61 />
+    <EFC1/>
     </div>
     </>
     

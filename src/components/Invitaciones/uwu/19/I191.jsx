@@ -1,11 +1,11 @@
 import Imagenes from '../../../../assets/AlmacenImagenes'
 
-export const I51 = () => {
+export const I191 = () => {
   return (
     <>
     
     <div className='invi'>
-          <h2 className='kg1'> Freddy Conovilca Matamoros </h2>
+          <h2 className='kg1'>Maria de los Angeles Diaz Cardenas</h2>
             <small>Con la bendicion de Dios y nuestros padres</small>
             <div className='a3'>
               <div className='normalBox'>
