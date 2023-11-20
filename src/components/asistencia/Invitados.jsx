@@ -21,6 +21,9 @@ import { I20 } from '../Invitaciones/uwu/20/I20';
 import { I21 } from '../Invitaciones/uwu/21/I21';
 import { I22 } from '../Invitaciones/uwu/22/I22';
 import { I23 } from '../Invitaciones/uwu/23/I23';
+import { I24 } from '../Invitaciones/uwu/24/I24';
+import { I25 } from '../Invitaciones/uwu/25/I25';
+import { I26 } from '../Invitaciones/uwu/26/I26';
 
 const componentsMap = {
   '02122302': I2,
@@ -44,7 +47,10 @@ const componentsMap = {
   '02122320': I20,
   '02122321': I21,
   '02122322': I22,
-  '02122323': I23, 
+  '02122323': I23,
+  '02122324': I24,
+  '02122325': I25,
+  '02122326': I26,  
 };
 
 export const Invitados = () => {

@@ -21,7 +21,7 @@
 }
 .frase{
   background-color: white;
-  width: 85%;
+  width: 96%;
   margin-top:1rem ;
   margin-bottom:2rem ;
   border-radius: 1rem;
@@ -176,6 +176,9 @@ h3{
   .traka-container{
     height: 81vh;
     overflow-x: hidden;
+  }
+  .frase{
+    width: 85%;
   }
 }
 
