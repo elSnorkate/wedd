@@ -263,6 +263,7 @@ p{
   opacity: 1;
 }
 #logoDetalle{
+  position: relative;
   width: 640px;
 }
 #counter{
@@ -323,7 +324,7 @@ p{
   }
   #logoDetalle{
     right: 1.5em;
-    width: 300px;
+    width: 100%;
   }
   .right-continer img {
     left: 145px;
@@ -361,5 +362,21 @@ p{
   }
   .navH{
   font-size: 1rem;
+  }
+}
+@media screen and (max-height: 685px) {
+  #logoDetalle{
+    position: relative;
+    top: 50px;
+    width: 400px;
+  }
+  #counter{
+    position: relative;
+    top: 50px;
+    font-size: 2rem;
+  }
+  #a8{
+    position: relative;
+    top: 350px !important;
   }
 }

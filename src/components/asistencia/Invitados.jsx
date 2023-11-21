@@ -73,7 +73,7 @@ export const Invitados = () => {
   return (
     <>
       {!SelectedComponent && (
-        <div className='cajaTipo1' style={{ position: 'absolute', top: '50%', left: '45%', transform: 'translate(-50%, -50%)' }}>
+        <div id='a8' className='cajaTipo1'  style={{ position: 'absolute', top: '50%', left: '45%', transform: 'translate(-50%, -50%)' }}>
           En caso haya recibido una invitación virtual, por favor inserte aquí su código <br /><br /><br />
           <input
             id='inputxd'
