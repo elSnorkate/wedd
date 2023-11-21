@@ -5,7 +5,7 @@ export const I261 = () => {
     <>
     
     <div className='invi'>
-          <h2 className='kg1'>Oscar Vasquez Conislla</h2>
+          <h2 className='kg1'>Oscar Vasquez Cconislla</h2>
             <small>Con la bendición de Dios y nuestros padres</small>
             <div className='a3'>
               <div className='normalBox'>

@@ -5,7 +5,7 @@ export const I41 = () => {
     <>
     
     <div className='invi'>
-          <h2 className='kg1'>Sherilan Jimenez Conovilva </h2>
+          <h2 className='kg1'>Sherilan Jimenez Conovilca </h2>
             <small>Con la bendición de Dios y nuestros padres</small>
             <div className='a3'>
               <div className='normalBox'>
