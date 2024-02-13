@@ -1,0 +1,48 @@
+.mwrapper{
+    height: 91vh;
+    display: flex;
+    align-items: center; 
+}
+.leftDiv{
+    width: 45%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.rightDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97.5%;
+    width: 45%;
+    padding-right:0%;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+.end{
+    width: 95%;
+    margin-bottom: 1rem ;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont {
+    width: 100%;
+    height: 1300px;
+    padding-left: 20%;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
+
+.cont:hover {
+    overflow-y: scroll; 
+}
